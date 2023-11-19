@@ -1,0 +1,32 @@
+{
+  "name": "convert-raspberry-to-usb-keyboard",
+  "version": "1.0.0",
+  "description": "The Raspberry Pi USB Keyboard Converter is a project that enables a Raspberry Pi to function as a USB keyboard. This can be useful for scenarios where you want your Raspberry Pi to emulate keyboard input for various applications, such as automation, testing, or interaction with other devices.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arasfi/Convert-Raspberry-To-Usb-Keyboard.git"
+  },
+  "keywords": [
+    "keyboard",
+    "usb",
+    "raspberry",
+    "hidg0",
+    "hidg1"
+  ],
+  "author": "Abdelhakim RASFI",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arasfi/Convert-Raspberry-To-Usb-Keyboard/issues"
+  },
+  "homepage": "https://github.com/arasfi/Convert-Raspberry-To-Usb-Keyboard#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "winston": "^3.11.0",
+    "ws": "^5.2.3"
+  }
+}
