@@ -21,6 +21,12 @@ git clone https://github.com/arasfi/Convert-Raspberry-To-Usb-Keyboard.git
 # Navigate to the Project Directory
 cd Convert-Raspberry-To-Usb-Keyboard
 
+# Chmod +x enable_hid.sh and enable hid in Raspberry Pi
+chmod +x enable_hid.sh
+
+#Execute enable_hid.sh
+./enable_hid.sh
+
 # Install Dependencies
 # Ensure all necessary dependencies are installed. Check the project documentation for details on dependencies and installation instructions.
 npm install
